@@ -1,0 +1,33 @@
+{
+  "name": "express-sqlite-aws-example",
+  "version": "1.0.0",
+  "description": "Express App Demo running on AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doron2402/express-sqlite-aws-example.git"
+  },
+  "author": "Doron Segal <doron@segaldoron.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/express-sqlite-aws-example/issues"
+  },
+  "homepage": "https://github.com/doron2402/express-sqlite-aws-example#readme",
+  "keywords": [
+    "Doron",
+    "Segal",
+    "AWS",
+    "Express",
+    "Sqlite",
+    "Knex"
+  ],
+  "dependencies": {
+    "express": "^4.15.3",
+    "forever": "^0.15.3",
+    "knex": "^0.13.0",
+    "sqlite3": "^3.1.8"
+  }
+}
